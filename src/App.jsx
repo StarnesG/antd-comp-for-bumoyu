@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import AllSlider from './components/Slider/SliderMenu.jsx'
 import FaceMenu from './components/FaceChange/FaceMenu.jsx'
 import ModeMenu from './components/SelectMode/ModeMenu.jsx'
-import 'antd/dist/antd.css';
+import './css/antd.css';
 
 export default function App() {
 	const [ASSty, setASSty] = useState (true);

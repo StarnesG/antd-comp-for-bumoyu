@@ -114,7 +114,7 @@ export default function Facemodel(prop) {
         hotkeys(key, 'inMenu', function () {
             message.info('你通过' + key + '键调用了xxx的功能')
         });
-    }, [hotkeys()]);
+    });
 
 
     return (
