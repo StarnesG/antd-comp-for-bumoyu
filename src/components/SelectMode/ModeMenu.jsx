@@ -22,7 +22,7 @@ export default function ModeMenu(prop) {
         <div style={style}>
             <div style={outstyle}>
                 <SmileOutlined style={iconstyle} onClick={prop.goFace} />
-                <div style={txtstyle}>捏&emsp;&emsp;脸</div>
+                <div style={txtstyle}>捏&emsp;&emsp;脸1</div>
             </div>
             <div style={outstyle}>
                 <PictureOutlined style={iconstyle} />
